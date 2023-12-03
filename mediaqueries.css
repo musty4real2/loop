@@ -1,0 +1,229 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        background-image: url(images/mobile/image-hero.jpg);
+
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+        position: relative;
+        background-repeat: no-repeat;
+        overflow-x: hidden;
+    }
+
+    .header-text h1 {
+        font-size: 2.5rem;
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 0.2rem;
+        border: 1px solid var(--white);
+        font-weight: 300;
+        width: 90%;
+        margin-top: 8rem;
+        margin-left: 1rem;
+        padding: 20px;
+        color: var(--white);
+    }
+
+    .interactive-section {
+        max-width: 100%;
+        margin: 3rem 0 1rem 0;
+    }
+
+    .interactive-text {
+        border: 1px solid var(--white);
+        padding: 0 3rem 2rem 3rem;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        background-color: var(--white);
+        align-self: center;
+    }
+
+    .interactive-text h1 {
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: "Josefin Sans", sans-serif;
+
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 1rem;
+    }
+
+    .interactive-text p br {
+        display: none;
+    }
+
+    .interactive-text p {
+        text-align: center;
+        font-family: "Alata", sans-serif;
+        color: var(--very--dark--gray);
+        width: 100%;
+        line-height: 25px;
+    }
+
+    .interactive-content {
+        flex-direction: column;
+        display: flex;
+    }
+
+    .interactive-image-desktop {
+        display: none;
+    }
+
+    .interactive-image-mobile {
+        display: flex;
+        max-width: 90%;
+    }
+
+    .interactive-image-mobile img {
+        width: 100%;
+    }
+
+    .interactive-text {
+        border: 1px solid var(--white);
+
+        flex-basis: 100%;
+        margin-left: 0;
+        background-color: var(--white);
+        align-self: center;
+    }
+
+    .photo-text,
+    .photo-card {
+        display: none;
+    }
+
+    .photo-gallery {
+        margin-bottom: 40rem;
+    }
+
+    .column4-mobile {
+        display: block;
+        height: 100vh;
+    }
+
+    .photo-text-mobile {
+        text-transform: uppercase;
+        color: var(--dark--gray);
+        font-family: "Josefin Sans", sans-serif;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .photos-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .photo-text2-mobile h3 {
+        position: absolute;
+        color: var(--white);
+        font-size: 1.2rem;
+        font-weight: 300;
+        bottom: 0;
+        padding: 1rem;
+        font-family: "Josefin Sans", sans-serif;
+    }
+
+    .photo-text2-mobile {
+        margin-bottom: 1rem;
+    }
+
+    .mobile-btn {
+        margin-top: 1rem;
+    }
+
+    .mobile-btn button {
+        color: var(--black);
+        width: 140px;
+        height: 40px;
+        border: 1px solid var(--black);
+        font-weight: 400;
+        letter-spacing: 3px;
+        background-color: var(--white);
+        font-family: "Alata", sans-serif;
+        transition: 0.7s;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .mobile-btn button:hover {
+        color: var(--white);
+        border-color: var(--white);
+        background-color: var(--black);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .right-column,
+    .left-column {
+        width: 100%;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .footer-links a {
+        padding: 0;
+    }
+
+    .social-links-icons li a {
+        list-style: none;
+    }
+
+    .footer-links li {
+        padding-bottom: 2rem;
+    }
+
+    #footer-nav {
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 1rem;
+    }
+
+    .left-column {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-column img {
+        padding-left: 0;
+        margin-bottom: 5rem;
+        margin-top: 1rem;
+    }
+
+    .right-column {
+        margin: 0 0 7rem 0;
+    }
+
+    .copyright p {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <title>loopstudios</title>
+</head>
+
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <img src="/images/logo.svg" alt="loopstudios" />
+
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#support">Support</a></li>
+                </ul>
+            </div>
+        </nav>
+        <nav id="hamburger-nav">
+            <img src="/images/logo.svg" alt="loopstudios Logo" class="mobile-logo" />
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="menu-links">
+                    <ul>
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#careers" onclick="toggleMenu()">Careers</a></li>
+                        <li><a href="events" onclick="toggleMenu()">Events</a></li>
+                        <li><a href="#products" onclick="toggleMenu()">Products</a></li>
+                        <li><a href="support" onclick="toggleMenu()">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header-row">
+            <div class="header-text">
+                <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+            </div>
+        </div>
+    </header>
+    <section class="interactive-section">
+        <div class="interactive-content">
+            <div class="interactive-image-desktop">
+                <img src="images/desktop/image-interactive.jpg" alt="interactive image" />
+            </div>
+            <div class="interactive-image-mobile">
+                <img src="images/mobile/image-interactive.jpg" alt="interactive image" />
+            </div>
+            <div class="interactive-text">
+                <h1>The leader in interactive vr</h1>
+                <p>
+                    Founded in 2011, Loopstudios has been producing world-class <br />
+                    virtual reality projects for some of the best companies around the
+                    <br />
+                    globe. Our award-winning creations have transformed <br />
+                    businesses through digital experiences that bind to their brand.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="photo-gallery">
+        <div class="photo-text">
+            <h1>Our creations</h1>
+            <button>SEE ALL</button>
+        </div>
+        <div class="photo-card">
+            <div class="photos">
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-deep-earth.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        DEEP <br />
+                        EARTH
+                    </h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-night-arcade.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        NIGHT <br />
+                        ARCADE
+                    </h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-soccer-team.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>SOCCER <br />TEAM VR</h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-grid.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        THE <br />
+                        GRID
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="photo-card">
+            <div class="photos">
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-from-above.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        FROM UP <br />
+                        ABOVE VR
+                    </h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-pocket-borealis.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        POCKET <br />
+                        BOREALIS
+                    </h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-curiosity.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>THE <br />CURIOSITY</h3>
+                </div>
+                <div class="photo-text2" style="
+              background-image: url(images/desktop/image-fisheye.jpg);
+              background-size: 300px;
+              width: 300px;
+              height: 500px;
+              position: relative;
+            ">
+                    <h3>
+                        MAKE IT <br />
+                        FISHEYE
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="column4-mobile">
+            <div class="photo-text-mobile">
+                <h1>Our creations</h1>
+            </div>
+            <div class="photo-card-mobile">
+                <div class="photos-mobile">
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-deep-earth.jpg);
+                position: relative;
+                background-size: 300px;
+                width: 330px;
+                height: 100px;
+              ">
+                        <h3>
+                            DEEP <br />
+                            EARTH
+                        </h3>
+                    </div>
+
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-night-arcade.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>
+                            NIGHT <br />
+                            ARCADE
+                        </h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-soccer-team.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 110px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>SOCCER <br />TEAM VR</h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-grid.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>
+                            THE <br />
+                            GRID
+                        </h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-from-above.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>
+                            FROM UP <br />
+                            ABOVE VR
+                        </h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-pocket-borealis.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 110px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>
+                            POCKET <br />
+                            BOREALIS
+                        </h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-curiosity.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>THE <br />CURIOSITY</h3>
+                    </div>
+                    <div class="photo-text2-mobile" style="
+                background-image: url(images/mobile/image-fisheye.jpg);
+                position: relative;
+                background-size: cover;
+                width: 330px;
+                height: 100px;
+                background-position: center;
+                background-repeat: no-repeat;
+              ">
+                        <h3>
+                            MAKE IT <br />
+                            FISHEYE
+                        </h3>
+                    </div>
+                </div>
+                <div class="mobile-btn"><button>SEE ALL</button></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="left-column">
+            <img src="/images/logo.svg" alt="loopstudios Logo" />
+            <nav id="footer-nav">
+                <div>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#events">Events</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#support">Support</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="right-column">
+            <div class="social-links">
+                <ul class="social-links-icons">
+                    <li>
+                        <a href="#facebook"><img src="images/icon-facebook.svg" alt="facebook" /></a>
+                    </li>
+                    <li>
+                        <a href="#twitter"><img src="images/icon-twitter.svg" alt="twitter" /></a>
+                    </li>
+
+                    <li>
+                        <a href="#pinterest"><img src="images/icon-pinterest.svg" alt="pinterest" /></a>
+                    </li>
+                    <li>
+                        <a href="#instagram"><img src="images/icon-instagram.svg" alt="instagram" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">
+                <p>© 2021 Loopstudios. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
