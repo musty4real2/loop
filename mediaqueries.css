@@ -11,9 +11,8 @@
 @media screen and (max-width: 768px) {
     header {
         background-image: url(images/mobile/image-hero.jpg);
-
         background-size: cover;
-        height: 100vh;
+
         background-position: center;
         position: relative;
         background-repeat: no-repeat;
@@ -31,6 +30,92 @@
         margin-left: 1rem;
         padding: 20px;
         color: var(--white);
+    }
+
+    .hamburger-menu {
+        position: relative;
+        display: inline-block;
+        margin-right: 2rem;
+    }
+
+    .mobile-logo {
+        margin-left: 1.5rem;
+        position: relative;
+    }
+
+    .hamburger-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        width: 30px;
+        cursor: pointer;
+        margin-left: 0 auto;
+    }
+
+    .hamburger-icon span {
+        width: 150%;
+        height: 2px;
+        background-color: var(--white);
+        transition: all 0.3 ease-in-out;
+    }
+
+    .menu-links {
+        position: absolute;
+
+        right: 0;
+        height: 30px;
+        color: var(--white);
+
+        max-height: 0;
+        overflow: hidden;
+        opacity: 1;
+        transition: all 0.3 ease-in-out;
+    }
+
+    .menu-links ul {
+        background-color: black;
+        height: 80vh;
+    }
+
+    .menu-links a {
+        display: flex;
+        padding: 10px;
+
+        font-weight: 700;
+        text-align: center;
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 15px;
+        color: var(--white);
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: all 0.3 ease-in-out;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .menu-links li {
+        list-style: none;
+
+        padding-top: 1rem;
+    }
+
+    .menu-links.open {
+        display: flex;
+        flex-direction: column;
+        max-height: 600px;
+        color: var(--verydark--grayblue);
+
+        width: 330px;
+        padding-top: 2rem;
+        padding-bottom: 4rem;
+        position: absolute;
+        text-align: center;
+        margin-top: -4rem;
+        margin-left: 0;
+        height: 100vh;
+
+        background-repeat: no-repeat;
     }
 
     .interactive-section {
